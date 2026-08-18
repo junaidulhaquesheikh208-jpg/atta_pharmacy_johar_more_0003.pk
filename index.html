@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atta Pharmacy & Sons Co. Ltd – Company Gallery</title>
+  <meta name="description" content="Atta Pharmacy – Your Trusted Healthcare Partner. Quality healthcare products, wholesale rates, home delivery across Karachi, Pakistan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-icon">&#9878;</span>
+        <span class="brand-text">Atta <strong>Pharmacy</strong></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <span class="hero-badge">Wholesale &amp; Retail</span>
+      <h1 class="hero-title">Your Trusted <span>Healthcare</span> Partner</h1>
+      <p class="hero-sub">
+        At <strong>Atta Pharmacy</strong>, we are committed to providing high-quality healthcare
+        products at the best prices. Wholesale rates, special discounts and extra percentage
+        savings on a wide range of genuine products.
+      </p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">Explore Gallery</a>
+        <a href="#contact" class="btn btn-outline">Order Now</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>100%</strong><span>Genuine Products</span></div>
+        <div class="stat"><strong>24/7</strong><span>Home Delivery</span></div>
+        <div class="stat"><strong>Bulk</strong><span>Wholesale Deals</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Our Products</span>
+        <h2 class="section-title">What We Offer</h2>
+        <p class="section-desc">
+          Fresh medicines, genuine healthcare essentials and everyday products at the best prices.
+        </p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="section section-alt" id="why-us">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">The Atta Pharmacy Advantage</h2>
+      </div>
+      <div class="why-grid" id="whyGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY (MASONRY) ===== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Company Gallery</span>
+        <h2 class="section-title">Moments &amp; Highlights</h2>
+        <p class="section-desc">A masonry layout of our products, deliveries and store moments.</p>
+      </div>
+      <div class="filter-bar" id="filterBar"></div>
+      <div class="masonry" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-info">
+          <span class="section-tag">Contact Us</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p>
+            We provide <strong>Home Delivery all over Karachi, Pakistan.</strong> For product
+            inquiries, wholesale orders or more information, please contact:
+          </p>
+          <ul class="contact-list">
+            <li><span class="ct-ico">&#128100;</span> <div><strong>Muhammad Hassan Malik</strong><small>Sales &amp; Orders</small></div></li>
+            <li><span class="ct-ico">&#9742;</span> <div><strong>+92 326 2927018</strong><small>Call or WhatsApp</small></div></li>
+            <li><span class="ct-ico">&#128666;</span> <div><strong>Karachi, Pakistan</strong><small>Fast &amp; reliable home delivery</small></div></li>
+          </ul>
+          <a href="tel:+923262927018" class="btn btn-primary">&#9742; Call Now</a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send a Message</h3>
+          <input type="text" placeholder="Your Name" required />
+          <input type="tel" placeholder="Phone Number" required />
+          <textarea rows="4" placeholder="Your message / product inquiry" required></textarea>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-note" id="formNote" hidden>&#10003; Message sent! We will contact you shortly.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p><strong>ATTA PHARMACY</strong> – Quality Healthcare, Genuine Medicines, Trusted Service.</p>
+      <p>&copy; <span id="year"></span> Atta Pharmacy &amp; Sons Co. Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

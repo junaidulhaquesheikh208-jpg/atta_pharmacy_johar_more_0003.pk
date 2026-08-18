@@ -1,0 +1,20 @@
+{
+  "name": "atta-pharmacy-gallery",
+  "version": "1.0.0",
+  "description": "Atta Pharmacy & Sons Co. Ltd - Company Gallery Website with masonry layout",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "pharmacy",
+    "gallery",
+    "masonry",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
